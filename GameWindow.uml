@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>main.GameWindow</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1283.0">PyQt5.QtCore.QObject</node>
+    <node x="289.00000000000006" y="1200.0">PyQt5.sip.wrapper</node>
+    <node x="697.929347826087" y="10244.0">main.GameWindow</node>
+    <node x="1018.429347826087" y="772.0">UIs.mainUI.Ui_MainWindow</node>
+    <node x="267.00000000000006" y="905.5">PyQt5.sip.simplewrapper</node>
+    <node x="670.5" y="0.0">typing.Hashable</node>
+    <node x="585.5" y="717.0">PyQt5.QtGui.QPaintDevice</node>
+    <node x="55.429347826086996" y="2472.0">PyQt5.QtWidgets.QWidget</node>
+    <node x="162.429347826087" y="8834.0">PyQt5.QtWidgets.QMainWindow</node>
+    <node x="607.5" y="104.0">object</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PyQt5.sip.wrapper" target="PyQt5.sip.simplewrapper" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="PyQt5.QtGui.QPaintDevice" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-215.5" />
+      <point x="0.0" y="281.5" />
+    </edge>
+    <edge source="PyQt5.sip.simplewrapper" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-27.0" />
+      <point x="365.00000000000006" y="692.0" />
+      <point x="740.5" y="692.0" />
+      <point x="0.0" y="281.5" />
+    </edge>
+    <edge source="UIs.mainUI.Ui_MainWindow" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-160.5" />
+      <point x="1124.929347826087" y="692.0" />
+      <point x="740.5" y="692.0" />
+      <point x="0.0" y="281.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="INTERFACE">
+      <point x="0.0" y="-281.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="main.GameWindow" target="UIs.mainUI.Ui_MainWindow" relationship="REALIZATION">
+      <point x="0.0" y="-193.5" />
+      <point x="796.429347826087" y="10218.0" />
+      <point x="1124.929347826087" y="10218.0" />
+      <point x="0.0" y="160.5" />
+    </edge>
+    <edge source="PyQt5.QtWidgets.QWidget" target="PyQt5.QtCore.QObject" relationship="REALIZATION">
+      <point x="0.0" y="-3154.0" />
+      <point x="545.929347826087" y="2445.0" />
+      <point x="365.0" y="2445.0" />
+      <point x="0.0" y="567.5" />
+    </edge>
+    <edge source="PyQt5.QtCore.QObject" target="PyQt5.sip.wrapper" relationship="REALIZATION">
+      <point x="0.0" y="-567.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="main.GameWindow" target="PyQt5.QtWidgets.QMainWindow" relationship="REALIZATION">
+      <point x="0.0" y="-193.5" />
+      <point x="796.429347826087" y="10218.0" />
+      <point x="545.929347826087" y="10218.0" />
+      <point x="0.0" y="679.0" />
+    </edge>
+    <edge source="PyQt5.QtWidgets.QWidget" target="PyQt5.QtGui.QPaintDevice" relationship="REALIZATION">
+      <point x="0.0" y="-3154.0" />
+      <point x="545.929347826087" y="2445.0" />
+      <point x="740.5" y="2445.0" />
+      <point x="0.0" y="215.5" />
+    </edge>
+    <edge source="PyQt5.QtWidgets.QMainWindow" target="PyQt5.QtWidgets.QWidget" relationship="REALIZATION">
+      <point x="5.6843418860808015E-14" y="-679.0" />
+      <point x="0.0" y="3154.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="858.5" y="711.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+</Diagram>
+
